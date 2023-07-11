@@ -70,8 +70,7 @@ section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.445);
-
-
+    background-position: right center;
 }
 
 section#img01{
