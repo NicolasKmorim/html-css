@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <p>
+                <label for="iemail">E-mail</label>
+                <label for="emai" name="email" id="iemail" autocomplete="email"></label>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(d{2}\)[0-9]{4,5}-\d[0-9]$">
+            </p>
+        </fieldset>
+
+    </form>
+</body>
+</html>
