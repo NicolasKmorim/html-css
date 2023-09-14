@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+main {
+    background-color: blueviolet;
+}
+p{
+    color:red;
+    font:900 courier new;
+}
